@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Reservación de Cita Médica</title>
+</head>
+<body bgcolor = #C3F4F9>
+    <header>
+        <center><h1>Hospital La Paz </h1>
+        <img src="Paz.png" height = 50>
+        <h2>Clinica del Dr. Carlos Boj </h2>
+        <img src="dr.jpg" height = 50>
+        <p>Horario de Atención: Lunes a Viernes, de 8:00 AM - 6:00 PM</p>
+        <p> <img src="tel.png" height = 30> Teléfonos de Emergencia: 4898-9654 / 4898-9654</p> </center>
+    </header>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+    <center><h2>Servicios</h2>
+      <h3>Medicina Interna
+          Cirugía General
+          Ortopedia 
+          Traumatología </h3>
+     
+     <br><br><br><br><br><br><br><br><br><br><br><br>
+     <center><h2>Reservación de Cita Médica</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+       
+        <label for="Edad">Edad:</label>
+        <input type="Edad" id="Edad" name="Edad" required><br>
+         <br>
+         <label for="Razon">Razon:</label>
+         <select>
+          <option> Consulta de rutina 
+          <option>Emergencia 
+          <option>Exámenes médicos 
+          <option>Rayos X 
+          <option>ultrasonido
+         </select>
+       
+         <p> <button type = submit>Enviar </button> </p>
+          <br> <br> <br> <BR> <br> <br>
+           <h2>Direccion</h2>
+           <img src="u.png" height = 40>
+            <H3>  24 Avenida, Quezaltenango</h3>
+
+     </form>
+     </center>
+     </html>
